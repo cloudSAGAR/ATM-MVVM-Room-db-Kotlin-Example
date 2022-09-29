@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVVM Room Kotlin Livedata Coroutine</string>
+    <string name="distance">12dp</string>
+</resources>

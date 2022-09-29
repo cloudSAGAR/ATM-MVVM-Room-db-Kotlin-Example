@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lblInsertHeading"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:background="@drawable/card_rounded"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginRight="9dp"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ATM Amount"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/atm_amount_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center"
+                android:text="Rs. 50000"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 100"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_rs100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text="20"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 200"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_rs200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+               <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="9dp"
+
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 500"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_rs500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text="20"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="17dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 2000"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_rs2000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text="18"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+  </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp" >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/txt_withdraw_amount"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border"
+            android:hint="Enter withdraw amount.."
+            android:textSize="17dp"
+            android:inputType="number|phone"
+            android:textColor="#000000"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:maxLength="9"
+            android:textColorHint="#8D8D8D"
+            android:layout_margin="9dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="25dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="12dp"
+                android:background="#F1F1F1"
+                android:text="Enter your withdraw amount">
+
+            </TextView>
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnWithdraw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_press"
+            android:text="WITHDRAW"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lblInsertResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:lineSpacingExtra="0dp"
+            android:text="Last Transaction"
+            android:textColor="#272727"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnWithdraw"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnWithdraw"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <LinearLayout
+            android:id="@+id/lblLastTrans"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:background="@drawable/card_rounded"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginRight="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ATM Amount"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_atm_amount_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text="Rs. 00"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 100"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_txt_rs100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 200"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_txt_rs200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="9dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 500"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_txt_rs500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="17dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Rs. 2000"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_txt_rs2000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lblyourtrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:lineSpacingExtra="0dp"
+            android:text="Your Transaction"
+            android:textColor="#272727"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnWithdraw"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnWithdraw"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/big_padding"
+            tools:listitem="@layout/recyclerview_item" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnReadLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:visibility="gone"
+            android:layout_marginEnd="40dp"
+            android:text="Click To Read Credentials From Room"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
