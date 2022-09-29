@@ -1,7 +1,7 @@
 # ATM app : Money Withdraw System
 # MVVM + Coroutines + Roomdb + Livedata + Custom Recyclerview
 
-learning purpose atm withdrawal app shows and store data in local storage (roomdb)
+learning purpose atm withdrawal app shows and store data from local storage (roomdb)
 
 ![myATM sagar raval](https://user-images.githubusercontent.com/21954113/193047598-eaeaf8e4-264d-4e55-8b0d-c7bdeee82bb9.jpg)
 
