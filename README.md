@@ -1,14 +1,10 @@
-# Android’s Room in Kotlin ft. MVVM Architecture and Coroutines
+# ATM app : Money Withdraw System
+# MVVM + Coroutines + Roomdb + Livedata + Custom Recyclerview
 
-# hi team, this is SAGAR RAVAL : thats the code for learning purpose ..
+learning purpose atm withdrawal app shows and store data in local storage (roomdb)
 
-**KOTLIN**
+![myATM sagar raval](https://user-images.githubusercontent.com/21954113/193047598-eaeaf8e4-264d-4e55-8b0d-c7bdeee82bb9.jpg)
 
-**MVVM**
-
-**JETPACK**
-
-**Custom Recyclerview**
 
 **Room Database:** Database layer on top of SQLite database that takes care of mundane tasks that you used to handle with an SQLiteOpenHelper. Database holder that serves as an access point to the underlying SQLite database. The Room database uses the DAO to issue queries to the SQLite database.
 
